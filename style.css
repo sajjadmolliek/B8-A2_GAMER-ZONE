@@ -30,7 +30,7 @@ nav{
     font-size: 25px;
 }
 .nav_menuList{
-    background-color: darkgray;
+    background-color: #E7E6E9;
     padding: 15px;
     border-radius: 10px;
     color: #3C354F;
@@ -125,7 +125,6 @@ nav{
     grid-template-columns: repeat(4,15vw);
     justify-content: center;
     gap: 1vw;
-    width: 100vw;
     margin: 60px 0;
 }
 .secction_02_div_img:hover img{
@@ -239,6 +238,72 @@ nav{
     }
 /* ENd Section_04 Style */
 /* ENd Main Section Style */
+
+
+
+/* Start Footer Section Style */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 640px;
+    background-color: black;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.footer_logo_g{
+    color: white;
+    font-size: 30px;
+}
+.footer_logo_g>span{
+    font-size: 40px;
+    color: var(--primClr);
+}
+.footer_txt1{
+    display: grid;
+    grid-template-columns: repeat(6,95px);
+    color: white;
+    font-weight: 500;
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.footer_logo_icon{
+    display: grid;
+    grid-template-columns: repeat(6,50px);
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    column-gap: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.footer_txt2{
+    display: grid;
+    grid-template-columns: repeat(4,185px);
+    color: white;
+    font-weight: 500;
+    column-gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 40px 0;
+    opacity: .5;
+}
+.footer_single_div{
+    color: white;
+    text-align: center;
+    opacity: .5;
+}
+/* ENd Footer Section Style */
 
 
 
@@ -410,7 +475,50 @@ nav{
             margin-left: 4px;
             font-size: 10px;
         }
-/* ENd Section_04 Style */
+    /* ENd Section_04 Style */
+    /* Start Footer Section Style */
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 640px;
+            background-color: black;
+        }
+        .footer_logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
+        }
+        .footer_logo_g{
+            color: white;
+            font-size: 30px;
+        }
+        .footer_logo_g>span{
+            font-size: 40px;
+            color: var(--primClr);
+        }
+        .footer_txt1{
+            grid-template-columns: repeat(3,95px);
+            column-gap: 2rem;
+            row-gap: 3rem;
+        }
+        .footer_logo_icon{
+            grid-template-columns: repeat(3,50px);
+            font-size: 26px;
+            row-gap: 25px;
+        }
+        .footer_txt2{
+            grid-template-columns: repeat(2,185px);
+            column-gap: 1rem;
+            row-gap: 2rem;
+        }
+        .footer_single_div{
+            color: white;
+            text-align: center;
+            opacity: .5;
+        }
+    /* ENd Footer Section Style */
 }
 
 
@@ -553,5 +661,44 @@ nav{
         line-height: 25px;
         opacity: .5;
     }
-/* ENd Section_03 Style */
+    /* ENd Section_03 Style */
+    /* Start Footer Section Style */
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 640px;
+            background-color: black;
+        }
+        .footer_logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
+        }
+        .footer_logo_g{
+            color: white;
+            font-size: 30px;
+        }
+        .footer_logo_g>span{
+            font-size: 40px;
+            color: var(--primClr);
+        }
+        .footer_txt1{
+            grid-template-columns: repeat(3,95px);
+            column-gap: 2rem;
+            row-gap: 3rem;
+        }
+
+        .footer_txt2{
+            grid-template-columns: repeat(2,185px);
+            column-gap: 1rem;
+            row-gap: 2rem;
+        }
+        .footer_single_div{
+            color: white;
+            text-align: center;
+            opacity: .5;
+        }
+    /* ENd Footer Section Style */
 }
