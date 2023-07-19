@@ -96,6 +96,8 @@ nav{
 }
 /* ENd Section_01 Style */
 /* ENd Header Section Style */
+
+
 /* Start Main Section Style */
 /* Start Section_02 Style */
 .secction_02_text{
@@ -116,6 +118,7 @@ nav{
 .secction_02_text p{
     font-size: 18px;
     font-weight: 500;
+    opacity: .6;
 }
 .secction_02_img{
     display: grid;
@@ -135,6 +138,7 @@ nav{
 }
 .secction_02_div_img{
     position: relative;
+    height: 25vw;
 }
 .secction_02_div_img:hover .section_02_bgClr{
     background-color: #0b02236e;
@@ -160,8 +164,52 @@ nav{
     font-size: 16px;
     font-weight: 500;
     margin: 12px 0;
+    opacity: .5;
 }
 /* ENd Section_02 Style */
+/* Start Section_03 Style */
+.section_03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_03_img{
+    width: 40%;
+    margin-left: 8vw;
+}
+.section_03_img1{
+    width: 25vw;
+}
+.section_03_img2{
+    width: 7vw;
+    margin-left: -4vw;
+}
+.section_03_txt{
+    width: 28vw;
+    
+}
+.section_03_txt h1{
+    width: 28vw;
+    font-weight: 800;
+    font-size: 48px;
+}
+.section_03_txt h1>span{
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section_03_txt p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0;
+    line-height: 25px;
+    opacity: .5;
+
+}
+/* ENd Section_03 Style */
 /* ENd Main Section Style */
 
 
@@ -261,6 +309,62 @@ nav{
             font-size: 10px;
         }
     /* End Section_01 Style */
+    /* Start Section_02 Style */
+        .secction_02_text{
+            text-align: center;
+        }
+        .secction_02_text h1{
+            font-size: 20px;
+        }
+        .secction_02_div_img {
+            height: 80vw;
+        }
+        .secction_02_text span{
+            font-size: 20px;
+        }
+        .secction_02_text p{
+            font-size: 9.8px;
+        }
+        .secction_02_img{
+            grid-template-columns: repeat(1,55vw);
+            gap: 9vw;
+        }
+    /* ENd Section_02 Style */
+    /* Start Section_03 Style */
+        .section_03{
+            flex-direction: column-reverse;
+        }
+        .section_03_img{
+            width: 40%;
+            margin-left: 8vw;
+        }
+        .section_03_img1{
+            width: 35vw;
+        }
+        .section_03_img2{
+            width: 10vw;
+            margin-left: -8vw;
+        }
+        .section_03_txt{
+            width: 100vw;
+            text-align: center;
+        }
+        .section_03_txt h1{
+            width: 100vw;
+            font-weight: 800;
+            font-size: 28px;
+        }
+        .section_03_txt h1>span{
+            font-size: 28px;
+        }
+        .section_03_txt p{
+            font-size: 18px;
+            font-weight: 500;
+            margin: 20px 0;
+            line-height: 25px;
+            opacity: .5;
+        }
+    /* ENd Section_03 Style */
 }
 
 
@@ -350,4 +454,58 @@ nav{
         font-size: 10px;
     }
     /* End Section_01 Style */
+    /* Start Section_02 Style */
+    .secction_02_text{
+        text-align: center;
+    }
+    .secction_02_text h1{
+        font-size: 20px;
+    }
+    .secction_02_text span{
+        font-size: 20px;
+    }
+    .secction_02_text p{
+        font-size: 9.8px;
+    }
+    .secction_02_img{
+        grid-template-columns: repeat(2,25vw);
+        gap: 5vw;
+    }
+/* ENd Section_02 Style */
+/* Start Section_03 Style */
+    .section_03{
+        flex-direction: column-reverse;
+        margin-top: 25vw;
+    }
+    .section_03_img{
+        width: 40%;
+        margin-left: 8vw;
+    }
+    .section_03_img1{
+        width: 35vw;
+    }
+    .section_03_img2{
+        width: 10vw;
+        margin-left: -8vw;
+    }
+    .section_03_txt{
+        width: 100vw;
+        text-align: center;
+    }
+    .section_03_txt h1{
+        width: 100vw;
+        font-weight: 800;
+        font-size: 28px;
+    }
+    .section_03_txt h1>span{
+        font-size: 28px;
+    }
+    .section_03_txt p{
+        font-size: 18px;
+        font-weight: 500;
+        margin: 20px 0;
+        line-height: 25px;
+        opacity: .5;
+    }
+/* ENd Section_03 Style */
 }
