@@ -461,12 +461,12 @@ footer{
     /* Start Section_04 Style */
         .section_04{
             justify-content: start;
-            padding: 0 10px;
+            padding: 0 20px;
         }
         .section_04_img{
             padding: 2px 0px;
             margin: 0 0px 0 7px;
-            width: 125px;
+            width: 100px;
         }
         .section_04_img img{
             width: 15%;
